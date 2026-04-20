@@ -1,0 +1,7 @@
+{{ define "main" }}
+<p><a href="/posts/">← Back</a></p>
+<h1>{{ .Title }}</h1>
+<p><time>{{ .Date.Format "02 January 2006" }}</time></p>
+<hr>
+{{ .Content }}
+{{ end }}
