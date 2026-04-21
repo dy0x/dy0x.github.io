@@ -4,31 +4,35 @@
 <hr>
 
 <div class="columns">
-    <div class="block">
-        <img src="/annunciation-to-the-shepherds-chinese.jpg" alt="The Annunciation to the Shepherds" width="200">
-    </div>
+  <div class="block">
+    <img src="/annunciation-to-the-shepherds-chinese.jpg"
+      alt="Glory to God in the highest, And on earth peace, goodwill toward men!" width="200">
+  </div>
 
-    <div class="block">
-        <p>
-            Hi, I'm <strong>Dylan</strong>. Welcome to my personal site.
-        </p>
-        <h2>Blog</h2>
-        <ul>
-            {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - <time>{{ .Date.Format "02/01/06" }}</time></li>
-            {{ end }}
-        </ul>
-        <p><a href="/posts/">More...</a></p>
+  <div class="block">
+    <p>
+      Hi, I'm <strong>Dylan</strong>. Welcome to my personal site.
+    </p>
+    <p lang="zh">你好，欢迎来到我的网站。</p>
 
-        <h2>Highlighted Projects</h2>
-        <ul>
-            <li><a href="https://github.com/dy0x/xmr-mempool">Monero Mempool</a> — a monero txpool explorer </li>
-        </ul>
+    <h2>Blog</h2>
+    <ul>
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - <time>{{ .Date.Format "02/01/06" }}</time></li>
+      {{ end }}
+    </ul>
+    <p><a href="/posts/">More...</a></p>
 
-        <h2>Donate</h2>
-        <p>If you find my work useful, consider donating via Monero.</p>
-        <p class="address">
-            82aCZvCRmvEHS5pYyEtWcY2nvhGqJ6wfdsgVfdXfGMw9aLSm6egFJyh7ZzDfv2a9p5vZmCgg5nLLcF2tz8Dq5Y8QeFNqq4</p>
-    </div>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/dy0x/xmr-mempool">Monero Mempool</a> — a monero txpool explorer </li>
+      <li><a href="https://github.com/dy0x/dotfiles">Dotfiles</a> — My dotfiles for MacOS and Linux
+    </ul>
+
+    <h2>Donate</h2>
+    <p>If you find my work useful, consider donating via Monero.</p>
+    <p class="address">
+      82aCZvCRmvEHS5pYyEtWcY2nvhGqJ6wfdsgVfdXfGMw9aLSm6egFJyh7ZzDfv2a9p5vZmCgg5nLLcF2tz8Dq5Y8QeFNqq4</p>
+  </div>
 </div>
 {{ end }}
