@@ -33,7 +33,7 @@ Well, the great part about being an adult is that we don't have to learn like ba
 
 A beginner who tries to speak before they have enough input ends up translating from their native language in their head, recycling the same stock phrases and reinforcing the same incorrect patterns. Conversation groups are often not much better, usually offering limited speaking time with the added benefit of exposing you to other learners' mistakes.
 
-Output matters, but it grows from a foundation of hundreds or thousands of hours of input. Speaking practice is good for getting over nerves, or for people who already have a solid foundation. Some people do it just because they enjoy it and it helps them to stay motivated. But as an early stage learner, do not confuse it with real efficient language acquisition.
+Output matters, but it grows from a foundation of hundreds or thousands of hours of input. Speaking practice is good for getting over nerves, or for people who already have a solid foundation. Some people do it just because they enjoy it, and it helps them to stay motivated. But as an early stage learner, do not confuse it with real efficient language acquisition.
 
 ## Adults can learn languages, they just choose not to
 
