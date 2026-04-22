@@ -1,0 +1,30 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<hr>
+
+<p>This is a running record of my library - the books I own, reference or have read. Some are digital, some are from the
+  library and some are still sitting on my shelves. It's an evolving project and doesn't reflect my entire reading
+  history. </p>
+<p>While these titles have informed my thinking, inclusion here is a matter of record rather than a blanket
+  endorsement
+  of every idea within.</p>
+
+{{ $books := hugo.Data.books }}
+
+{{ $cats := slice }}
+{{ range $books }}{{ $cats = $cats | append .category }}{{ end }}
+{{ $cats = $cats | uniq | sort }}
+
+{{ range $cats }}
+{{ $cat := . }}
+<h2>{{ $cat }}</h2>
+<ul>
+  {{ range sort (where $books "category" $cat) "author" }}
+  <li>{{ with .author }}{{ . }} — {{ end }}<em>{{ .title }}</em>{{ with .detail }} <span class="muted">{{ . }}</span>{{
+    end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ end }}

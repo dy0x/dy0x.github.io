@@ -42,6 +42,15 @@ h1 {
 h2 {
   font-size: 1.4em;
   margin: 0.5em 0 0.2em 0;
+  color: var(--hl);
+}
+
+h3 {
+  color: var(--hl2);
+}
+
+.muted {
+  color: #999;
 }
 
 hr {
