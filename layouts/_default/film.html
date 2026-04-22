@@ -1,0 +1,67 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<hr>
+<p>This is a list of asian movies and television shows I have watched in my lifetime. I am using this as an alternative
+  to maintaining a list on some social media platform. I primarily only watch Chinese dramas nowdays and mainly with the
+  intent of immersing in the language and understading mainland culture.</p>
+<p>If you have any artistic movie recommendations from mainland China, feel free to email me.</p>
+{{ $dramas := hugo.Data.dramas }}
+
+{{ $watching := sort (where $dramas "status" "watching") "title" }}
+{{ $completed := sort (where $dramas "status" "completed") "title" }}
+{{ $plan := sort (where $dramas "status" "plan") "title" }}
+
+{{ if $watching }}
+<h2>Currently Watching</h2>
+<ul>
+  {{ range $watching }}
+  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} — {{ . }}/10{{ end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ if $completed }}
+<h2>Completed</h2>
+
+{{ with where $completed "type" "ne" "Movie" }}
+<h3>Dramas &amp; TV</h3>
+<ul>
+  {{ range . }}
+  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} — {{ . }}/10{{ end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ with where $completed "type" "Movie" }}
+<h3>Movies</h3>
+<ul>
+  {{ range . }}
+  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} — {{ . }}/10{{ end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+{{ end }}
+
+{{ if $plan }}
+<h2>Plan to Watch</h2>
+
+{{ with where $plan "type" "ne" "Movie" }}
+<h3>Dramas &amp; TV</h3>
+<ul>
+  {{ range . }}
+  <li>{{ .title }}{{ with .year }} ({{ . }}){{ end }}{{ with .country }}, {{ . }}{{ end }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ with where $plan "type" "Movie" }}
+<h3>Movies</h3>
+<ul>
+  {{ range . }}
+  <li>{{ .title }}{{ with .year }} ({{ . }}){{ end }}{{ with .country }}, {{ . }}{{ end }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,365 @@
+# Watching
+- title: "Romance of Our Parents"
+  year: 2014
+  country: China
+  type: Drama
+  status: watching
+
+# Completed — ordered by finished date desc
+- title: "The Dumpling Queen"
+  year: 2025
+  country: China
+  type: Movie
+  status: completed
+  rating: 8.0
+  finished: "25-02-2026"
+  notes: "best movie I have watched on an airplane"
+
+- title: "The Bond"
+  year: 2021
+  country: China
+  type: Drama
+  status: completed
+  rating: 8.5
+  finished: "12-02-2026"
+  notes: "heartwarming family drama"
+
+- title: "Warm Hug"
+  year: 2020
+  country: China
+  type: Movie
+  status: completed
+  rating: 6.5
+  finished: "26-12-2025"
+
+- title: "American Dreams in China"
+  year: 2013
+  country: China
+  type: Movie
+  status: completed
+  rating: 6.0
+  finished: "26-12-2025"
+
+- title: "Goodbye Mr. Loser"
+  year: 2015
+  country: China
+  type: Movie
+  status: completed
+  rating: 7.5
+  finished: "26-09-2025"
+  notes: "fun movie but don't expect anything special"
+
+- title: "When Life Gives You Tangerines"
+  year: 2025
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 9.5
+  finished: "31-07-2025"
+
+- title: "Meet Yourself"
+  year: 2023
+  country: China
+  type: Drama
+  status: completed
+  rating: 8.5
+  finished: "19-07-2025"
+  notes: "visually relaxing, slow paced drama set in rural yunnan"
+
+- title: "Comrades: Almost a Love Story"
+  year: 1996
+  country: China
+  type: Movie
+  status: completed
+  rating: 7.0
+  finished: "25-11-2024"
+
+- title: "YOLO"
+  year: 2024
+  country: China
+  type: Movie
+  status: completed
+  rating: 7.0
+  finished: "17-10-2024"
+  notes: "feel-good comedy"
+
+- title: "Suzhou River"
+  year: 2000
+  country: China
+  type: Movie
+  status: completed
+  rating: 5.0
+  finished: "02-02-2024"
+  notes: "arthouse film with a weird plot, not that good"
+
+- title: "Take Off 2"
+  year: 2016
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 7.5
+  finished: "23-12-2022"
+
+- title: "Money"
+  year: 2019
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 6.5
+  finished: "23-12-2022"
+
+- title: "Little Forest"
+  year: 2018
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 8.0
+  finished: "23-12-2022"
+
+- title: "Special Delivery"
+  year: 2022
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 6.5
+  finished: "23-12-2022"
+
+- title: "Persona"
+  year: 2019
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 2.5
+  finished: "08-10-2022"
+  notes: "terrible"
+
+- title: "Extraordinary Attorney Woo"
+  year: 2022
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 7.5
+  finished: "05-10-2022"
+  notes: "started great and trailed off"
+
+- title: "Hospital Playlist Season 2"
+  year: 2021
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 8.5
+  finished: "19-09-2022"
+  notes: "rushed and unsatisfying ending"
+
+- title: "The Handmaiden"
+  year: 2016
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 7.5
+  finished: "24-08-2022"
+
+- title: "Hospital Playlist"
+  year: 2020
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 9.5
+  finished: "23-08-2022"
+
+- title: "Twenty Five Twenty One"
+  year: 2022
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 8.0
+  finished: "28-07-2022"
+
+- title: "Reply 1988"
+  year: 2015
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 10
+  finished: "15-07-2022"
+
+- title: "A Taxi Driver"
+  year: 2017
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 8.5
+  finished: "06-05-2022"
+
+- title: "Hometown Cha-Cha-Cha"
+  year: 2021
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 7.5
+  finished: "21-02-2022"
+
+- title: "Squid Game"
+  year: 2021
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 4.0
+  finished: "12-10-2021"
+
+- title: "Reply 1997"
+  year: 2012
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 7.0
+  finished: "10-10-2021"
+
+- title: "It's Okay to Not Be Okay"
+  year: 2020
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 9.5
+  finished: "08-10-2021"
+
+- title: "Parasite"
+  year: 2019
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 8.0
+  finished: "19-11-2020"
+
+- title: "What's Wrong with Secretary Kim"
+  year: 2018
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 6.0
+  finished: "07-11-2020"
+
+- title: "While You Were Sleeping"
+  year: 2017
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 6.0
+  finished: "07-11-2020"
+
+- title: "Hotel del Luna"
+  year: 2019
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 8.5
+  finished: "07-11-2020"
+
+- title: "Crash Landing on You"
+  year: 2019
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 9.5
+  finished: "07-11-2020"
+
+- title: "Moon Lovers: Scarlet Heart Ryeo"
+  year: 2016
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 8.5
+  finished: "24-05-2020"
+
+- title: "Descendants of the Sun"
+  year: 2016
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 8.0
+  finished: "11-05-2020"
+
+- title: "Itaewon Class"
+  year: 2020
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 7.5
+  finished: "11-05-2020"
+
+- title: "Old Boy"
+  year: 2003
+  country: Korea
+  type: Movie
+  status: completed
+  rating: 7.5
+  finished: "14-02-2020"
+
+- title: "Guardian: The Lonely and Great God"
+  year: 2016
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 9.5
+  finished: "14-02-2020"
+
+- title: "SKY Castle"
+  year: 2018
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 8.5
+  finished: "14-02-2020"
+
+- title: "Strong Girl Bong Soon"
+  year: 2017
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 4.5
+  finished: "14-02-2020"
+
+- title: "Dream High"
+  year: 2011
+  country: Korea
+  type: Drama
+  status: completed
+  rating: 6.0
+  finished: "17-04-2019"
+
+# Plan to Watch
+- title: "All About Lily Chou Chou"
+  year: 2001
+  country: Japan
+  type: Movie
+  status: plan
+
+- title: "Better Days"
+  year: 2019
+  country: China
+  type: Movie
+  status: plan
+
+- title: "Nirvana in Fire"
+  year: 2015
+  country: China
+  type: Drama
+  status: plan
+
+- title: "Raise the Red Lantern"
+  year: 1991
+  country: China
+  type: Movie
+  status: plan
+
+- title: "The Story of Ming Lan"
+  year: 2018
+  country: China
+  type: Drama
+  status: plan
+
+- title: "We Made a Beautiful Bouquet"
+  year: 2021
+  country: Japan
+  type: Movie
+  status: plan
