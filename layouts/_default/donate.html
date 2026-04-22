@@ -1,15 +1,77 @@
 {{ define "main" }}
-<h1>Donate</h1>
+<h1>{{ .Title }}</h1>
+<hr>
+<p>If you find my work useful, consider supporting it via Monero or Bitcoin.</p>
 
-<p>If you find my work useful, consider supporting it via cryptocurrency.</p>
+<style>
+  .donate-row {
+    display: flex;
+    gap: 1.5em;
+    align-items: flex-start;
+    margin-bottom: 1em;
+  }
+
+  .donate-row img {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    display: block;
+    margin: 0;
+  }
+
+  .donate-addresses {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .donate-entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.6em;
+    margin-bottom: 0.5em;
+    word-break: break-all;
+  }
+
+  .donate-entry strong {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .donate-entry .address {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    word-break: break-all;
+  }
+</style>
 
 <h2>Monero (XMR)</h2>
-<img src="/xmr-qr.png" alt="Monero QR Code" width="200">
-<p>dyox@cake.cash</p>
-<p>82aCZvCRmvEHS5pYyEtWcY2nvhGqJ6wfdsgVfdXfGMw9aLSm6egFJyh7ZzDfv2a9p5vZmCgg5nLLcF2tz8Dq5Y8QeFNqq4</p>
+<div class="donate-row">
+  <img src="/xmr-qr.png" alt="Monero QR Code">
+  <div class="donate-addresses">
+    <div class="donate-entry">
+      82aCZvCRmvEHS5pYyEtWcY2nvhGqJ6wfdsgVfdXfGMw9aLSm6egFJyh7ZzDfv2a9p5vZmCgg5nLLcF2tz8Dq5Y8QeFNqq4
+    </div>
+  </div>
+</div>
+
+<hr>
 
 <h2>Bitcoin (BTC)</h2>
-<img src="/btc-qr.png" alt="Bitcoin QR Code" width="200">
-<p>bc1qjxpgad79xp2p5pswv6xlh2hm5xzyes8lqgvfln</p>
-
+<div class="donate-row">
+  <img src="/btc-qr.png" alt="Bitcoin QR Code">
+  <div class="donate-addresses">
+    <div class="donate-entry">
+      <strong>On-Chain:</strong>bc1qjxpgad79xp2p5pswv6xlh2hm5xzyes8lqgvfln
+    </div>
+    <div class="donate-entry">
+      <strong>Lightning:</strong>dyox@cake.cash
+    </div>
+    <div class="donate-entry">
+      <strong>Silent:</strong>
+      sp1qqwhtpxw8v94jvsmjz38utw5nal4mcdwyz34yx308gy7ltk6sa57hkqceuatw2tef44smwx5hgeflxwps8e005ry88jn74x9fuv80vdvkmq32quq0
+    </div>
+  </div>
+</div>
 {{ end }}

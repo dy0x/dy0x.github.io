@@ -74,7 +74,8 @@ hr {
 }
 
 ul {
-  padding: 0 0 0 1em;
+  padding: 0;
+  list-style-position: inside;
 }
 
 li {
