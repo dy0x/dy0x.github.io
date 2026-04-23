@@ -41,7 +41,7 @@ That is the truth people are trying not to say.
 
 Adults do learn languages. 
 
-We fail for ordinary reasons. Bad methods, inconsistent effort, too much embarassment, not enough input, or giving up before the language has had time to settle in. None of it proves that adults cannot learn languages. It only proves that most of us would rather protect our pride than do the work.
+We fail for ordinary reasons. Bad methods, inconsistent effort, too much embarrassment, not enough input, or giving up before the language has had time to settle in. None of it proves that adults cannot learn languages. It only proves that most of us would rather protect our pride than do the work.
 
 ## Further resources
 I am not specifically endorsing anything linked here but all of these links are about immersion learning. Some are written specifically for Japanese but are still profitable for other languages.
