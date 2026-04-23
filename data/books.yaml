@@ -1,24 +1,29 @@
 - title: "On the Incarnation"
   author: "Athanasius, Saint"
-  category: "Theology"
+  category: "Patristics"
 
 - title: "Systematic Theology"
-  author: "Louis Berkhof"
+  author: "Berkhof, Louis"
   category: "Theology"
+
+- title: "Rome Sweet Home"
+  author: "Hahn, Kimberly & Hahn, Scott"
+  category: "Apologetics"
+  notes: "the bishop of rome hath no jurisdiction in this realm"
 
 - title: "Daily Prayers for Orthodox Christians"
   author: "Hutchison-Hall, John"
-  category: "Theology"
+  category: "Devotional"
 
 - title: "Thoughts for Young Men"
   author: "Ryle, J.C."
-  category: "Theology"
+  category: "Devotional"
   rating: 8.0
   notes: "recommended reading for all young protestant men"
 
 - title: "The Screwtape Letters"
   author: "Lewis, C.S."
-  category: "Theology"
+  category: "Devotional"
   rating: 7.0
 
 - title: "The Holiness of God"
@@ -45,12 +50,12 @@
 
 - title: "The Pursuit of God"
   author: "Tozer, A.W."
-  category: "Theology"
+  category: "Devotional"
   rating: 7.0
 
 - title: "The Orthodox Church"
   author: "Ware, Timothy"
-  category: "Theology"
+  category: "Church History"
 
 - title: "The Orthodox Way"
   author: "Ware, Timothy"
@@ -58,7 +63,7 @@
 
 - title: "The Religion of the Apostles"
   author: "De Young, Stephen"
-  category: "Theology"
+  category: "Church History"
 
 - title: "The Big Print"
   author: "Lepard, Lawrence"
@@ -71,7 +76,7 @@
 
 - title: "The Apostolic Fathers: Greek Texts and English Translations"
   author: "Holmes, Michael W."
-  category: "Theology"
+  category: "Patristics"
 
 - title: "Institutes of the Christian Religion"
   author: "Calvin, John"
@@ -80,25 +85,25 @@
 
 - title: "Why We Are Catholic"
   author: "Horn, Trent"
-  category: "Theology"
+  category: "Apologetics"
   notes: "unconvincing"
 
 - title: "Confessions"
   author: "Augustine, Saint"
-  category: "Theology"
+  category: "Patristics"
 
 - title: "Commentary on the Whole Bible"
   author: "Henry, Matthew"
-  category: "Theology"
+  category: "Biblical Studies"
   detail: "(6 vols.)"
 
 - title: "Humility: The Journey Toward Holiness"
   author: "Murray, Andrew"
-  category: "Theology"
+  category: "Devotional"
 
 - title: "Creeds, Confessions, and Catechisms"
   author: "Van Dixhoorn, Chad"
-  category: "Theology"
+  category: "Church History"
 
 - title: "The Meaning of Marriage"
   author: "Keller, Timothy"
@@ -106,16 +111,16 @@
 
 - title: "The Valley of Vision"
   author: "Bennett, Arthur"
-  category: "Theology"
+  category: "Devotional"
 
 - title: "The Book of Common Prayer"
   author: "Church of England"
-  category: "Theology"
+  category: "Devotional"
   detail: "(1662)"
 
 - title: "Be Thou My Vision"
   author: "Gibson, Jonathan"
-  category: "Theology"
+  category: "Devotional"
 
 - title: "小王子"
   author: "Saint-Exupéry, Antoine de"
@@ -123,10 +128,10 @@
   detail: "(Chinese translation)"
 
 - title: "The Orthodox Study Bible"
-  category: "Theology"
+  category: "Biblical Studies"
 
 - title: "The ESV Study Bible"
-  category: "Theology"
+  category: "Biblical Studies"
 
 - title: "Meditations"
   author: "Aurelius, Marcus"
