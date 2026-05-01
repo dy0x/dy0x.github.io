@@ -97,6 +97,11 @@ body {
 
 .home-right > p:first-child { margin-top: 0; }
 
+.rss-link {
+  font-size: 0.9em;
+  margin-bottom: 1.2em;
+}
+
 .now p {
   margin: 0.15em 0;
   font-size: 0.85em;

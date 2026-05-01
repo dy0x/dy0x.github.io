@@ -16,7 +16,7 @@
     {{ with .Site.Data.now }}
     <div class="now">
       {{ if .studying }}<p>studying: {{ .studying }}</p>{{ end }}
-      {{ if .reading }}<p>reading: {{ .reading }}{{ with .reading_author }} — {{ . }}{{ end }}</p>{{ end }}
+      {{ if .reading }}<p>reading: {{ .reading }}{{ with .reading_author }} -{{ . }}{{ end }}</p>{{ end }}
       {{ if .watching }}<p>watching: {{ .watching }}</p>{{ end }}
     </div>
     {{ end }}
@@ -28,7 +28,7 @@
       {{ end }}
       <li><a href="/posts/">More soon probably...</a></li>
     </ul>
-    {{/* <p class="verse-inline">The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding. — Proverbs 9:10</p> */}}
+    {{/* <p class="verse-inline">The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding. -Proverbs 9:10</p> */}}
   </div>
 </div>
 {{ end }}

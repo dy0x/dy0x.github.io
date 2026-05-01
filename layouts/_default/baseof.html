@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} -{{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 
@@ -18,7 +18,6 @@
         <li><a href="/projects/"{{ if hasPrefix .RelPermalink "/projects" }} class="active"{{ end }}>projects</a></li>
         <li><a href="/contact/"{{ if hasPrefix .RelPermalink "/contact" }} class="active"{{ end }}>contact</a></li>
         <li><a href="/donate/"{{ if hasPrefix .RelPermalink "/donate" }} class="active"{{ end }}>donate</a></li>
-        <li><a href="/posts/index.xml">rss</a></li>
       </ul>
     </nav>
     <div class="page">
