@@ -1,5 +1,5 @@
 +++
-title = "“Adults Can’t Learn Languages” Is a Cope"
+title = "Stop Blaming Your Age for Not Learning a Language"
 date = '2026-04-21T13:49:25+10:00'
 tags = ["language", "learning", "chinese", "acquisition", "immersion"]
 categories = ["language"]
