@@ -19,10 +19,11 @@
     <p>I maintain a log of <a href="/film/">asian cinema</a> I've watched and <a href="/books/">books</a> I've read, if
       you are interested.</p>
 
-    <h2>Blog</h2>
+    <h2>Posts</h2>
     <ul>
       {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - <time>{{ .Date.Format "02/01/06" }}</time></li>
+      <!-- <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - <time>{{ .Date.Format "02/01/06" }}</time></li> -->
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       <li><a href="/posts/">More...</a></li>
       {{ end }}
     </ul>
