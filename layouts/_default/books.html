@@ -19,7 +19,7 @@
 <h2>{{ $cat }}</h2>
 <ul>
   {{ range sort (where $books "category" $cat) "author" }}
-  <li>{{ with .author }}{{ . }} -{{ end }}<em>{{ .title }}</em>{{ with .detail }} <span class="muted">{{ . }}</span>{{
+  <li>{{ with .author }}{{ . }} - {{ end }}<em>{{ .title }}</em>{{ with .detail }} <span class="muted">{{ . }}</span>{{
     end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}
   </li>
   {{ end }}

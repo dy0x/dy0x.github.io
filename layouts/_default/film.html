@@ -14,7 +14,7 @@
 <h2>Currently Watching</h2>
 <ul>
   {{ range $watching }}
-  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} -{{ . }}/10{{ end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}</li>
+  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} - {{ . }}/10{{ end }}{{ with .notes }} <span class="muted">- {{ . }}</span>{{ end }}</li>
   {{ end }}
 </ul>
 {{ end }}
@@ -26,7 +26,7 @@
 <h3>Dramas &amp; TV</h3>
 <ul>
   {{ range . }}
-  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} -{{ . }}/10{{ end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}</li>
+  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} - {{ . }}/10{{ end }}{{ with .notes }} <span class="muted">- {{ . }}</span>{{ end }}</li>
   {{ end }}
 </ul>
 {{ end }}
@@ -35,7 +35,7 @@
 <h3>Movies</h3>
 <ul>
   {{ range . }}
-  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} -{{ . }}/10{{ end }}{{ with .notes }} <span class="muted">— {{ . }}</span>{{ end }}</li>
+  <li>{{ .title }} ({{ .country }}, {{ .year }}){{ with .rating }} - {{ . }}/10{{ end }}{{ with .notes }} <span class="muted">- {{ . }}</span>{{ end }}</li>
   {{ end }}
 </ul>
 {{ end }}

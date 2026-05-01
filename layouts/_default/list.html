@@ -2,7 +2,7 @@
 <p class="rss-link">Click <a href="/posts/index.xml">here</a> for my RSS feed.</p>
 <ul>
 	{{ range .Pages }}
-	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> -<time>{{ .Date.Format "02/01/06" }}</time></li>
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - <time>{{ .Date.Format "02/01/06" }}</time></li>
 	{{ end }}
 </ul>
 {{ end }}

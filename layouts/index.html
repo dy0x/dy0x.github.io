@@ -16,7 +16,7 @@
     {{ with .Site.Data.now }}
     <div class="now">
       {{ if .studying }}<p>studying: {{ .studying }}</p>{{ end }}
-      {{ if .reading }}<p>reading: {{ .reading }}{{ with .reading_author }} -{{ . }}{{ end }}</p>{{ end }}
+      {{ if .reading }}<p>reading: {{ .reading }}{{ with .reading_author }} - {{ . }}{{ end }}</p>{{ end }}
       {{ if .watching }}<p>watching: {{ .watching }}</p>{{ end }}
     </div>
     {{ end }}
