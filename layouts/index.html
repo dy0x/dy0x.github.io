@@ -1,48 +1,34 @@
 {{ define "main" }}
-<h1>{{ .Site.Title }}</h1>
-
-<hr>
-
-<div class="columns">
-  <div class="block">
+<div class="home-layout">
+  <div class="home-left">
     <a href="/annunciation-to-the-shepherds-chinese.jpg" target="_blank">
       <img src="/annunciation-to-the-shepherds-chinese.jpg"
-        alt="Glory to God in the highest, And on earth peace, goodwill toward men!" width="200">
+        alt="Glory to God in the highest, And on earth peace, goodwill toward men!">
     </a>
   </div>
 
-  <div class="block">
-    <p>
-      Hey, welcome to my personal website.
-    </p>
+  <div class="home-right">
+    <p>Hey. I'm Silas.</p>
     <p lang="zh">你好，欢迎来到我的网站。</p>
-    <p>I maintain a log of <a href="/film/">asian cinema</a> I've watched and <a href="/books/">books</a> I've read, if
-      you are interested.</p>
+    <p>This is my personal corner of the web. I keep a log of <a href="/film/">asian cinema</a> and <a href="/books/">books</a>, and collect <a href="/links/">links</a> to things I find interesting.</p>
+    <p>Interested in language acquisition, faith, and privacy.</p>
 
-    <h2>Posts</h2>
+    {{ with .Site.Data.now }}
+    <div class="now">
+      {{ if .studying }}<p>studying: {{ .studying }}</p>{{ end }}
+      {{ if .reading }}<p>reading: {{ .reading }}{{ with .reading_author }} — {{ . }}{{ end }}</p>{{ end }}
+      {{ if .watching }}<p>watching: {{ .watching }}</p>{{ end }}
+    </div>
+    {{ end }}
+
+    <h2>Recent Posts</h2>
     <ul>
       {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-      <!-- <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - <time>{{ .Date.Format "02/01/06" }}</time></li> -->
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      <li><a href="/posts/">More...</a></li>
       {{ end }}
+      <li><a href="/posts/">More soon probably...</a></li>
     </ul>
-
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/dy0x/xmr-mempool">Monero Mempool</a> — a monero txpool explorer </li>
-      <li><a href="https://github.com/dy0x/dotfiles">Dotfiles</a> — My dotfiles for MacOS and Linux
-        <!-- <li><a href="https://github.com/cypherascetic">More on GitHub...</a></li> -->
-    </ul>
-
-    <p>Here are some <a href="/links/">links</a> to corners of the internet that I find interesting or
-      useful.
-    </p>
-
-    <p>If you would like to support my work, I accept tips via <a href="/donate">Monero or Bitcoin</a>.
-      <!-- <p>Monero XMR Address:</p> -->
-      <!-- <p class="address"> -->
-      <!--   82aCZvCRmvEHS5pYyEtWcY2nvhGqJ6wfdsgVfdXfGMw9aLSm6egFJyh7ZzDfv2a9p5vZmCgg5nLLcF2tz8Dq5Y8QeFNqq4</p> -->
+    {{/* <p class="verse-inline">The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding. — Proverbs 9:10</p> */}}
   </div>
 </div>
 {{ end }}

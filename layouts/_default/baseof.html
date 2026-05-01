@@ -9,17 +9,22 @@
 </head>
 
 <body>
-  {{ block "main" . }}{{ end }}
-  <hr>
-  <footer>
-    <p>
-      <a href="/index.html">home</a> ~
-      <a href="mailto:silas@cypherascetic.com">email</a> ~
-      <a href="/cypherascetic.asc">pgp</a> ~
-      <a href="https://github.com/dy0x">git</a> ~
-      <a href="/posts/index.xml">rss</a>
-    </p>
-  </footer>
+  <div class="wrapper">
+    <nav class="sidenav">
+      <a class="sidenav-title" href="/">cypherascetic</a>
+      <ul>
+        <li><a href="/"{{ if .IsHome }} class="active"{{ end }}>home</a></li>
+        <li><a href="/posts/"{{ if hasPrefix .RelPermalink "/posts" }} class="active"{{ end }}>blog</a></li>
+        <li><a href="/projects/"{{ if hasPrefix .RelPermalink "/projects" }} class="active"{{ end }}>projects</a></li>
+        <li><a href="/contact/"{{ if hasPrefix .RelPermalink "/contact" }} class="active"{{ end }}>contact</a></li>
+        <li><a href="/donate/"{{ if hasPrefix .RelPermalink "/donate" }} class="active"{{ end }}>donate</a></li>
+        <li><a href="/posts/index.xml">rss</a></li>
+      </ul>
+    </nav>
+    <div class="page">
+      {{ block "main" . }}{{ end }}
+    </div>
+  </div>
 </body>
 
 </html>
