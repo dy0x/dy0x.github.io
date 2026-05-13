@@ -1,11 +1,20 @@
 # Watching
-- title: "Romance of Our Parents"
-  year: 2014
+- title: "Nirvana in Fire"
+  year: 2015
   country: China
   type: Drama
   status: watching
 
 # Completed — ordered by finished date desc
+- title: "Romance of Our Parents"
+  year: 2014
+  country: China
+  type: Drama
+  status: completed
+  rating: 10.0
+  finished: "11-05-2026"
+  notes: "highly recommend - a relaxed, sweet heartwarming drama about growing old with the ones you love"
+
 - title: "The Dumpling Queen"
   year: 2025
   country: China
@@ -340,11 +349,6 @@
   type: Movie
   status: plan
 
-- title: "Nirvana in Fire"
-  year: 2015
-  country: China
-  type: Drama
-  status: plan
 
 - title: "Raise the Red Lantern"
   year: 1991
